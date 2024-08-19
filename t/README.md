@@ -1,6 +1,6 @@
 # About
 
-What is my IP?
+What is my (public) IP?
 
 CLI utility for the [`public-ip`] crate.
 

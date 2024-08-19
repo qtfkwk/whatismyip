@@ -1,8 +1,8 @@
 [package]
 name = "whatismyip"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-description = "What is my IP?"
+description = "What is my (public) IP?"
 license = "MIT"
 repository = "https://github.com/qtfkwk/whatismyip"
 
