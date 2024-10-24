@@ -21,6 +21,6 @@ Options:
 
 ```text
 $ whatismyip -V
-whatismyip 0.1.1
+whatismyip 0.2.0
 ```
 
