@@ -1,13 +1,13 @@
 [package]
 name = "whatismyip"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 description = "What is my (public) IP?"
 license = "MIT"
 repository = "https://github.com/qtfkwk/whatismyip"
 
 [dependencies]
-clap = { version = "4.5.20", features = ["derive", "wrap_help"] }
+clap = { version = "4.5.22", features = ["derive", "wrap_help"] }
 clap-cargo = "0.14.1"
 public-ip = "0.2.2"
-tokio = { version = "1.41.0", features = ["macros"] }
+tokio = { version = "1.42.0", features = ["macros"] }
