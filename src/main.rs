@@ -1,16 +1,7 @@
-use clap::{builder::Styles, Parser};
-
-const STYLES: Styles = Styles::styled()
-    .header(clap_cargo::style::HEADER)
-    .usage(clap_cargo::style::USAGE)
-    .literal(clap_cargo::style::LITERAL)
-    .placeholder(clap_cargo::style::PLACEHOLDER)
-    .error(clap_cargo::style::ERROR)
-    .valid(clap_cargo::style::VALID)
-    .invalid(clap_cargo::style::INVALID);
+use {clap::Parser, clap_cargo::style::CLAP_STYLING};
 
 #[derive(Parser)]
-#[command(about, version, max_term_width = 80, styles = STYLES)]
+#[command(about, version, max_term_width = 80, styles = CLAP_STYLING)]
 struct Cli {}
 
 #[tokio::main]
